@@ -8,7 +8,7 @@ export const schema = {
           { type: 'string' },
           { type: 'array', items: { type: 'string' } }
         ],
-        default: '**/*.{png,jpg,jpeg}'
+        default: '**/*.{png,jpg,jpeg,PNG,JPG,JPEG}'
       },
       ignore: {
         anyOf: [
